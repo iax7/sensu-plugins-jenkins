@@ -41,7 +41,7 @@ class JenkinsMetricsPingPongChecker < Sensu::Plugin::Check::CLI
 
   option :port,
          description: 'Jenkins Port',
-         short: 'p PORT',
+         short: '-p PORT',
          long: '--port PORT',
          default: '8080'
 
